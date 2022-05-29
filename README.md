@@ -2,7 +2,7 @@
 
 ## Descriptions
 - A modified Settings app from Xiaomi Mi 9 cepheus as a dependency of any Miui apps Magisk modules for non-Miui ROM.
-- Sources: 
+- Sources: https://github.com/reiryuki/Miui-Settings-Mod-Magisk-Module/blob/main/module.prop
 
 ## Requirements
 - NOT in Miui ROM
