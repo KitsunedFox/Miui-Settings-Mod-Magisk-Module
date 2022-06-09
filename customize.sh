@@ -54,16 +54,12 @@ fi
 
 # cleaning
 ui_print "- Cleaning..."
-APP="`ls $MODPATH/system/priv-app` `ls $MODPATH/system/app` framework-ext-res"
-PKG="com.miui.settings"
+PKG=com.miui.settings
 if [ "$BOOTMODE" == true ]; then
   for PKGS in $PKG; do
     RES=`pm uninstall $PKGS`
   done
 fi
-for APPS in $APP; do
-  rm -f `find /data/dalvik-cache /data/resource-cache -type f -name *$APPS*.apk`
-done
 rm -rf /metadata/magisk/$MODID
 rm -rf /mnt/vendor/persist/magisk/$MODID
 rm -rf /persist/magisk/$MODID
@@ -95,13 +91,7 @@ for NAMES in $NAME; do
 done
 }
 
-# function
-hide_oat() {
-for APPS in $APP; do
-  mkdir -p `find $MODPATH/system -type d -name $APPS`/oat
-  touch `find $MODPATH/system -type d -name $APPS`/oat/.replace
-done
-}
+
 
 
 
