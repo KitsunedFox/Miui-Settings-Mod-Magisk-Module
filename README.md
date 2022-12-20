@@ -5,7 +5,7 @@
 - The MIT license specified here is for the Magisk Module, not for Miui apps.
 
 ## Descriptions
-- A modified Settings app from Xiaomi Mi 9 cepheus as a dependency of any Miui apps Magisk modules for non-Miui ROM.
+- A modified Settings app from Xiaomi Mi 9 cepheus as a dependency of any Miui app & Miui Magisk module for non-Miui ROM.
 
 ## Sources
 - Settings.apk https://dumps.tadiphone.dev/dumps/xiaomi/cepheus cepheus-user-11-RKQ1.200826.002-V12.5.3.0.RFACNXM-release-keys

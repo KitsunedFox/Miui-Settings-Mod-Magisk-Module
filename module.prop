@@ -1,8 +1,8 @@
 id=MiuiSettingsMod
 name=Miui Settings Mod
-version=v0.2
-versionCode=2
+version=v0.3
+versionCode=3
 author=Rei Ryuki the Fixer
-description=Settings app ported from Xiaomi Mi 9 as a dependency of any Miui apps Magisk modules for any Android 5 and up non-Miui ROM.
+description=Settings app ported from Xiaomi Mi 9 as a dependency of any Miui app & Miui Magisk module for any Android 5 and up non-Miui ROM.
 
 
