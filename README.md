@@ -1,3 +1,5 @@
+# [ DISCONTINUED ]
+
 # Miui Settings Mod Magisk Module
 
 ## DISCLAIMER
